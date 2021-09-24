@@ -1,3 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+}
+
 body{
-    background: url(./surveyformimage.jpg);
+font-family: 'Roboto', sans-serif;
+ background-image:url(https://assets.nflxext.com/ffe/siteui/vlv3/998c1c50-6aaa-4795-ab62-9190a025d529/b9883521-f439-4c16-b5eb-b1719e2fece1/ZA-en-20191203-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+color: white;
+box-sizing: border-box;
+}
+#container {
+    background-color: rgba(0, 0, 0, 0.4);
+    margin: 30px 100px;
+    
+}
+.box{
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+span{
+    color: red;
+}
+#title {
+    font-size: 50px;
+   font-weight: bold;
+   font-family: "Bowlby One SC", cursive;
+   padding-top: 15px;
+  
+}
+p,h1{
+    text-align: center;
+}
+p{
+    font-size: 24px;
+    font-family: "Sorts Mill Goudy", sans-serif;
+    margin-top: 15px;
+}
+#dark-shadow{
+    background-color: rgba(0, 0, 0, 0.6);
+    max-width: 500px;
+    margin: auto;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+#buton{
+    font-size: larger;
+    color: white;
+    background-color: red;
+    border-radius: 50px;
+    height: 45px;
+    width: 160px;
+    border: none;
+    cursor: pointer;
+    margin: 15px 120px 16px 120px;
+}
+#buton:hover{
+    background-color: white;
+    color: red;
+}
+#content{
+    margin-top: 15px;
+    height: 35px;
+    width: 400px;
+    border: none;
+    padding: 10px;
+}
+#feedback{
+    margin-top: 10px;
+    width: 400px;
+    
 }
